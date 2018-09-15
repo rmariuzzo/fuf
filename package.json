@@ -1,0 +1,25 @@
+{
+  "name": "fuf",
+  "version": "1.0.0",
+  "description": "fuf - Find Unused Files in directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmariuzzo/fuf.git"
+  },
+  "keywords": [
+    "find",
+    "unused",
+    "files",
+    "grep"
+  ],
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmariuzzo/fuf/issues"
+  },
+  "homepage": "https://github.com/rmariuzzo/fuf#readme"
+}
