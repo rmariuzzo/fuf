@@ -1,8 +1,8 @@
 {
   "name": "fuf",
-  "version": "1.0.0",
-  "description": "fuf - Find Unused Files in directory",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "fuf - Find Unused Files in a directory",
+  "main": "fuf.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/rmariuzzo/fuf/issues"
   },
-  "homepage": "https://github.com/rmariuzzo/fuf#readme"
+  "homepage": "https://github.com/rmariuzzo/fuf#readme",
+  "dependencies": {
+    "glob": "^7.1.3"
+  }
 }

@@ -2,8 +2,14 @@
 
 ## Usage
 
-```bash
-fuf [target_directory] [files_directory]
+```js
+import fuf from 'fuf'
+
+fuf('target/directory', 'files/directory/**.*')
+  .then(results => {
+    console.log(results.unused)
+    console.log(results.used)
+  })
 ```
 
 ## How it works?
