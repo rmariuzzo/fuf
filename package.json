@@ -1,6 +1,6 @@
 {
   "name": "fuf",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "fuf - Find Unused Files in a directory",
   "main": "fuf.js",
   "scripts": {
