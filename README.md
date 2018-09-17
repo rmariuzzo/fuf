@@ -1,6 +1,12 @@
 ![fuf – Find Unused Files in a directory](.github/banner.svg)
 
-## Usage
+# Installation
+
+```bash
+npm install fuf
+```
+
+# Usage
 
 ```js
 import fuf from 'fuf'
@@ -12,13 +18,13 @@ fuf('target/directory', 'files/directory/**.*')
   })
 ```
 
-## How it works?
+# How it works?
 
  1. **`fuf`** find filenames that will be test for usage.
  2. **`fuf`** find usage of those filenames in files from a target directory.
  3. **`fuf`** output a list of unused files and a list of used files.
 
-## Development
+# Development
 
   1. Clone and fork this repo.
   2. Install dependencies: `npm install`.
