@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/rmariuzzo/fuf#readme",
   "dependencies": {
+    "fs-extra": "^7.0.0",
     "glob": "^7.1.3"
   }
 }
