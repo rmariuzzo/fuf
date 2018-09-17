@@ -15,7 +15,6 @@ module.exports = fuf
 /**
  * @typedef {Object} FufOptions
  * @property {string} match The match key to use to determine used file.
- * @property {boolean} delete Indicates if unused files shoudl be deleted.
  */
 
 /**
@@ -25,7 +24,6 @@ module.exports = fuf
 
 const defaults = {
   match: 'name',
-  delete: false,
 }
 
 const MATCHES = ['name', 'ext', 'fullname', 'path']
