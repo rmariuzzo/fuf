@@ -37,7 +37,7 @@ const MATCHES = ['name', 'ext', 'fullname', 'path']
  * 
  * @return {Promise<FindSourceFilesResult[]> Error>}
  */
-function fuf(target, source, options = {}) {
+function fuf(target, source, options = defaults) {
   return new Promise((resolve, reject) => {
 
     if (!target) {
@@ -48,11 +48,11 @@ function fuf(target, source, options = {}) {
       return reject(new Error('the source path is required'))
     }
 
-    if (options && options.match && MATCHES.indexOf(options.match) === -1) {
+    if (options && MATCHES.indexOf(options.match) === -1) {
       return reject(new Error(`options.match should be one of the following values: ${MATCHES.join(', ')}.`))
     }
 
-    options = { ...defaults, ...options }
+
 
     Promise.all([
       pglob(target, { nodir: true, ignore: source }),
