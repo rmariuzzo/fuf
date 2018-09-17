@@ -20,8 +20,8 @@ fuf('target/directory', 'files/directory/**.*')
 
 # How it works?
 
- 1. **`fuf`** find filenames that will be test for usage.
- 2. **`fuf`** find usage of those filenames in files from a target directory.
+ 1. **`fuf`** find filenames that will be tested for usage.
+ 2. **`fuf`** find the usage of those filenames in files from a target directory.
  3. **`fuf`** output a list of unused files and a list of used files.
 
 # Development
