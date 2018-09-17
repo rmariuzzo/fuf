@@ -48,7 +48,9 @@ function fuf(target, source, options = {}) {
       return reject(new Error('the source path is required'))
     }
 
-    
+    if (options && options.match && MATCHES.indexOf(options.match) === -1) {
+      return reject(new Error(`options.match should be one of the following values: ${MATCHES.join(', ')}.`))
+    }
 
     options = { ...defaults, ...options }
 
